@@ -1,29 +1,13 @@
-# vue-git
+# Github issues
 
-## Project setup
-```
-npm install
-```
+## [Demo](https://mol4ok.github.io/git-issues-vue/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Стек
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Vue / Vuex / Vue-Router
+- SCSS
+- PUG
 
-### Run your tests
-```
-npm run test
-```
+## Описание
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+_Веб интерфейс, который работает с github Api для получения репозиториев и issues. У Api есть лимит на 60 запросов в час для неавторизованных пользователей, поэтому предусмотренна авторизация, которая увеличивает лимит до 5000 запросов в час._
